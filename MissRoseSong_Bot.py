@@ -1,4 +1,4 @@
-# © Mr_Dark_Prince
+# © Wolverine
 from pyrogram import Client, filters
 from pyrogram.types import (
     InlineKeyboardButton,
@@ -12,7 +12,7 @@ import os
 from config import Config
 
 bot = Client(
-    'MissRose',
+    'Deadpool',
     bot_token = Config.BOT_TOKEN,
     api_id = Config.API_ID,
     api_hash = Config.API_HASH
