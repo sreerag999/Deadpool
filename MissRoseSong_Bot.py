@@ -13,9 +13,9 @@ from config import Config
 
 bot = Client(
     'MissRose',
-    bot_token = Config.BOT_TOKEN,
-    api_id = Config.API_ID,
-    api_hash = Config.API_HASH
+    bot_token = Config.1803656537:AAGojYGUsqDvQrWw4Gg21c-wUoASD3zmk3o,
+    api_id = Config.3842188,
+    api_hash = Config.da9be8f8168334213e6647cc71c2b2c4
 )
 
 ## Extra Fns -------------------------------
@@ -29,14 +29,14 @@ def time_to_seconds(time):
 ## Commands --------------------------------
 @bot.on_message(filters.command(['start']))
 def start(client, message):
-    Wolverine = f'👋 Hello @{message.from_user.username}\n\n [😌🍀🤚](https://telegra.ph/file/86cc2e654b1157f12b94f.jpg)\n I\'m Rose, I can upload songs from YouTube. Type /a song name:'
+    Wolverine = f'👋 Hello @{message.from_user.username}\n\n [😌🍀🤚](https://telegra.ph/file/86cc2e654b1157f12b94f.jpg)\n I\'m Wolverine, I can upload songs from YouTube. Type /sk song name:'
     message.reply_text(
         text=darkprince, 
         quote=False,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Owner🎸', url='https://t.me/mr_dark_prince'),
+                    InlineKeyboardButton('Owner🎸', url='https://t.me/The_Wolverine_Of_TG'),
                     InlineKeyboardButton('Source💿', url='https://github.com/Mr-Dark-Prince/MissRose')
                 ]
             ]
